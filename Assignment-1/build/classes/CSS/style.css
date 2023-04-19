@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Author     : Ahmed Elias
+*/
+
+.login-button {
+    -fx-background-color: #0000ff;
+}
+
+.login-button:hover {
+    -fx-background-color: #0202b3;
+    -fx-cursor: hand;    
+}
+
+.logout-button {
+    -fx-background-color: #dd9946;
+}
+
+.logout-button:hover {
+    -fx-background-color: #e58b1d;   
+    -fx-cursor: hand;
+}
+
+.convert-button {
+    -fx-background-color: #0a0043;
+}
+
+.convert-button:hover {
+    -fx-background-color: #150472;
+    -fx-cursor: hand;
+}

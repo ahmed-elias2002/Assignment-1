@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="292.0" prefWidth="405.0" style="-fx-background-color: f4f4f4;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SystemPageController">
+    <children>
+        <Label layoutX="13.0" layoutY="16.0" text="Currency Conversion System" textFill="#1c002b">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="logoutButton" layoutX="313.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutButtonHandle" prefHeight="25.0" prefWidth="73.0" styleClass="logout-button" stylesheets="@../../CSS/style.css" text="Log out" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Button>
+        <Button fx:id="convertButton" layoutX="161.0" layoutY="219.0" mnemonicParsing="false" onAction="#convertButtonHandle" prefHeight="36.0" prefWidth="73.0" styleClass="convert-button" stylesheets="@../../CSS/style.css" text="Convert" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Button>
+        <TextField fx:id="textFieldUSD" layoutX="65.0" layoutY="155.0" onMouseClicked="#onMouseClickedTextFieldUSD" prefHeight="25.0" prefWidth="112.0" />
+        <TextField fx:id="textFieldNIS" layoutX="224.0" layoutY="155.0" onMouseClicked="#onMouseClickedTextFieldNIS" prefHeight="25.0" prefWidth="112.0" />
+        <Label layoutX="109.0" layoutY="122.0" text="USD" textFill="#1c002b">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="270.0" layoutY="122.0" text="NIS" textFill="#1c002b">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="192.0" layoutY="155.0" text="TO" textFill="#1c002b">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
